@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Classic FM",
+        "url": "http://media-ice.musicradio.com/ClassicFM"
+    },
+    {
+        "name": "Radio RDI",
+        "url": "http://202.147.199.99:8000/;stream.nsv"
+    },
+    {
+        "name": "Trax FM Jakarta",
+        "url": "http://202.147.199.100:8000/;stream.nsv"
+    },
+    {
+        "name": "Delta FM Jakarta",
+        "url": "http://202.147.199.101:8000/;stream.nsv"
+    }
+]
