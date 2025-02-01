@@ -9,18 +9,6 @@ Aplikasi pemutar media ini mendukung pemutaran media lokal serta jaringan TV dan
 - Pemutaran media lokal (musik, video, dll.).
 - Pemutaran radio dan TV streaming dari URL.
 - **Pintasan tombol kontrol** yang memudahkan navigasi menggunakan keyboard:
-  - **Play/Pause**: `Space`
-  - **Stop**: `S`
-  - **Next Track**: `Right Arrow`
-  - **Previous Track**: `Left Arrow`
-  - **Mute/Unmute**: `M`
-  - **Volume Up**: `Up Arrow`
-  - **Volume Down**: `Down Arrow`
-  - **Open File**: `Ctrl + O`
-  - **Open Folder**: `Ctrl + Shift + O`
-  - **Exit**: `Ctrl + Q`
-  
-  Pintasan ini memberikan kontrol penuh terhadap pemutaran media hanya dengan keyboard, mendukung kenyamanan bagi pengguna dengan keterbatasan fisik.
 
 ## Instalasi
 1. **Unduh VLC**:
@@ -30,18 +18,14 @@ Aplikasi pemutar media ini mendukung pemutaran media lokal serta jaringan TV dan
 
 2. **Menyiapkan Aplikasi**:
    - Ekstrak folder VLC Portable atau gunakan instalasi VLC terpisah.
-   - Salin file `libvlc.dll` dan folder `plugins/` ke dalam folder proyek ini.
+   - Salin file `libvlc.dll` dan folder `plugins/` ke dalam folder lib proyek ini.
    - Jalankan aplikasi dengan file eksekusi yang sesuai.
 
 ## Lisensi
 Aplikasi ini dilisensikan di bawah **MIT License**.  
 VLC Media Player (libvlc.dll) digunakan dalam proyek ini di bawah lisensi **LGPL v2.1**.
 
-## Cara Menggunakan
-- Buka aplikasi.
-- Pilih file media atau folder untuk diputar.
-- Gunakan pintasan keyboard yang disebutkan di atas untuk mengontrol pemutaran media.
 
 ## Kontribusi
-Kontribusi sangat diterima! Jika Anda memiliki ide atau perbaikan untuk aplikasi ini, harap buka masalah atau ajukan pull request di repositori ini.
+Sebagai seorang Programer pemula. Kontribusi sangat diterima! Jika Anda memiliki ide atau perbaikan untuk aplikasi ini, harap buka masalah atau ajukan pull request di repositori ini.
 

@@ -267,6 +267,7 @@ class MediaPlayer(wx.Frame):
         self.Bind(wx.EVT_TIMER, self.update_slider, self.timer)
         self.timer.Start(1000)
 
+        self.Bind(wx.EVT_SIZE, self.on_resize)
 
         self.Bind(wx.EVT_CHAR_HOOK, self.on_key_press)
 
@@ -293,6 +294,10 @@ class MediaPlayer(wx.Frame):
         self.Centre()
         self.Show()
 
+    def on_resize(self, event):
+        """Perbarui layout setelah window diubah ukuran atau direstore."""
+        self.Layout()
+        event.Skip()
 
 
     def initialize_playback(self):

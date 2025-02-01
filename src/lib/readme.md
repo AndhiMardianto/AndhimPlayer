@@ -21,4 +21,3 @@ Agar aplikasi Andhim Player dapat berfungsi dengan baik, Anda perlu menyiapkan *
 4. **Verifikasi**:
    - Pastikan aplikasi dapat menemukan `libvlc.dll` dan file-file terkait untuk berjalan dengan benar.
 
-Dengan mengikuti langkah-langkah di atas, Andhim Player akan dapat berjalan dengan lancar.
